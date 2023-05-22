@@ -1,0 +1,38 @@
+h1{
+    color: red;
+    text-align: center;
+    font-size: 10vh ;
+}
+
+h2{
+    color: aqua;
+    font-size: 5vh;
+
+
+}
+
+article{
+background-color: rgb(152, 165, 172);
+}
+
+em{
+    font-style: normal;
+    color: orange;
+    font-size: 2vh;
+    text-decoration:underline;
+}
+
+strong{
+    font-weight: normal;
+    color: yellowgreen;
+}
+
+p{
+    background-color: palevioletred;
+}
+
+.Extreme{
+    color: rgb(6, 245, 6);
+    text-align: right;
+    text-decoration: underline;
+}

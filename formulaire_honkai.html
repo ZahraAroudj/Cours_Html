@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="formulaire_honkai.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HONKAI IMPACT</title>
+
+    <body>
+        <div class="onepage" id="page1">
+            <div class="titre_Honkai">
+                <h1>L'Univers Honkai</h1>
+                <div class="border"></div>
+                <h3><p>L'univers Honkai est composé de 3 jeux : Honkai Gakuen, Honkai Impact et Honkai Star rail.</p></h3>
+                    <div class="membres_honkai"></div>
+
+                    <div class="form_honkai">
+                        <h1> Formulaire Pour le discord </h1>
+                    <form method="post" action="traitement.php"></form>
+                    <label for="pseudo">Met ton pseudo </label>
+                    <input type="text" name="pseudo"> <br><br> 
+                    
+                    <label for="email">Votre e-mail</label>
+                    <input type="email" id="email" name="email"> <br><br>
+                    
+                    <label for="tel">Votre numéro de téléphone</label>
+                    <input type="tel" id="tel" name="tel"> <br><br>
+
+                    <label for="plateforme">Vous jouez sur qu'elle plateforme?</label>
+                    <select name="plateforme" id="plateforme" required>
+                    <option value="" disabled selected hidden>Choisissez la plateforme que vous utilisez </option>
+                     <option value="téléphone">téléphone</option>
+                     <option value="ordinateur">ordinateur</option>
+                    <option value="console">console</option>
+                    </select>
+                    </div>
+
+
+
+                    <div>
+                        <button type="submit" >Envoyer</button>
+
+                    </div>
+                    
+
+    </body>
+    
+
+</head>

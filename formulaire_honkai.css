@@ -1,0 +1,40 @@
+body {
+
+    background-image: url(https://pbs.twimg.com/media/EfXnVkTVAAQ-KtR.jpg:large);
+    ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.onepage{
+	padding: 50px;
+	width: 100%;
+	min-height: 100vh;
+	box-sizing: border-box; 
+	align-items: center;
+}
+
+#page1{
+	text-align: center;
+	vertical-align:middle;
+	padding: 40px 0;
+	
+}
+
+.titre_Honkai{
+	max-width: 2000px;
+	margin: auto;
+	overflow: hidden;
+	padding: 0 20px;
+    color: yellowgreen;
+    text-shadow: 2px 0 0 black, 2px 2px 0 black, 0 2px 0 black, -2px 2px 0 black, -2px 0 0 black, -2px -2px 0 black, 0 -2px 0 black, 2px -2px 0 black;
+}
+
+.membres_honkai{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.form_honkai{
+    color: aliceblue;
+    text-shadow: 2px 0 0 black, 2px 2px 0 black, 0 2px 0 black, -2px 2px 0 black, -2px 0 0 black, -2px -2px 0 black, 0 -2px 0 black, 2px -2px 0 black;
+}
